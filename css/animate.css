@@ -5,6 +5,21 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.slider-container {
+    width: 100%;
+    max-width: 350px;  /* Ajusta el tamaño que necesites */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.slider-img {
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: transform 0.7s ease-in-out; /* Deslizamiento suave */
+}
 
 .animated.infinite {
     -webkit-animation-iteration-count: infinite;
