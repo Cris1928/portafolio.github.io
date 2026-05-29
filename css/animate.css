@@ -5,6 +5,22 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.btn-pdf {
+    background-color: #F04F12;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-pdf:hover {
+    background-color: #c63d0c;
+    color: white;
+}
 .slider-container {
     width: 100%;
     max-width: 350px;  /* Ajusta el tamaño que necesites */
